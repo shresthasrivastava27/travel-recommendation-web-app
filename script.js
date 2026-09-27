@@ -1,0 +1,1 @@
+function handleSubmit(event){event.preventDefault();const message=document.getElementById('form-message');message.textContent='Thanks! Your message has been recorded.';event.target.reset();return false;}
